@@ -86,4 +86,34 @@ h1 {margin-bottom: 15px;}
 /*-----------------------------------------------*/
 /* INFORMATION SECTION */
 
+.card-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-top: 32px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    gap: 44px;
+}
+
+.card {
+    display: flex; 
+    width: 150px;
+  
+}
+
+figure > img {
+    border: 3px solid red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.300);   
+}
+
+
 
