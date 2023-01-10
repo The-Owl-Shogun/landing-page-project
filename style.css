@@ -115,5 +115,33 @@ figure > img {
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.300);   
 }
 
+/*-----------------------------------------------*/
+/* QUOTE SECTION */
 
+.section-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddee2;
+    padding: 25px;
+}
 
+.quote-container {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 25px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+blockquote > p {
+    margin-top: 15px;
+    text-align: end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
