@@ -51,6 +51,9 @@ a:hover, a:focus {
     margin-right: 10%;
 }
 
+nav {
+    margin-left: 25px;
+}
 ul {
     display: flex;
     gap: 20px;
@@ -59,13 +62,20 @@ ul {
 .hero-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 75px;
     gap: 40px;
 }
 
-.hero-container > img {border-radius: 15px;}
+.hero-container > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 35%;
+}
+
+.hero-container > img {border-radius: 10px;}
 
 .hero-text {color: #fff;}
 
@@ -92,21 +102,24 @@ h1 {margin-bottom: 15px;}
 }
 
 .card-container {
+
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
     flex-wrap: wrap;
+
     padding: 15px;
     margin-top: 32px;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 75px;
-    gap: 44px;
-}
+    gap: 20px; 
+ }
 
 .card {
-    display: flex; 
-    width: 150px;
-  
+    flex: 1;
+    text-align: center;
 }
 
 figure > img {
@@ -190,5 +203,7 @@ footer {
     text-align: center;
 }
 
-footer > p {padding: 25px;}
+.footer-container {
+    padding: 25px;
+}
 
