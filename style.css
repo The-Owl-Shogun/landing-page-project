@@ -181,4 +181,14 @@ button:hover {
     cursor: pointer;
 } 
 
+/*-----------------------------------------------*/
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+}
+
+footer > p {padding: 25px;}
 
